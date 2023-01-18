@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Project: Etch-A-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box">
+            <h1>Etch-A-Sketch</h1>
+            <div class="content">
+                <div class="grid"></div>
+                <div class="buttons">
+                    <button onclick="changeColor('#2b3467')">Blue</button>
+                    <button onclick="changeColor('#FCFFE7')">Eraser</button>
+                    <button onclick="changeColor('random')">Random</button>
+                    <button onclick="reset()">Reset</button>
+                </div>
+            </div>
+            <div class="size-box">
+                <input class="size" type="text" placeholder="" value="16" onchange="changeGrid(this.value)">
+                <button class="size-btn">Set Size</button>
+                <br /> <br />
+                <span class="invalid">Invalid Input (Please put a size between 2 and 100)</span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

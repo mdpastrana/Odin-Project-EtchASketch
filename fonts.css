@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "TrajanColorConcept";
+  src: url("https://e-nonprofitw.com/edsEnewslettersimages/images/VirginiaMilitaryInstitute/FY23/Fonts/TrajanColor-Concept.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "TrajanProRegular";
+  src: url("https://e-nonprofitw.com/edsEnewslettersimages/images/VirginiaMilitaryInstitute/FY23/Fonts/TrajanPro-Regular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Blacklettersh";
+  src: url("https://e-nonprofitw.com/edsEnewslettersimages/images/VirginiaMilitaryInstitute/FY23/Fonts/Blacklettersh.ttf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "AachenStd-Bold";
+  src: url("https://e-nonprofitw.com/edsEnewslettersimages/images/VirginiaMilitaryInstitute/FY23/Fonts/AachenStd-Bold.otf")
+    format("opentype");
+}
+
+p {
+  font-family: "TrajanColorConcept" !important;
+}
+
+h1 {
+  font-family: "TrajanProRegular" !important;
+}
+
+h2 {
+  font-family: "Blacklettersh" !important;
+}
+
+h3 {
+  font-family: "AachenStd-Bold" !important;
+}
