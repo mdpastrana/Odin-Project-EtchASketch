@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 body {
@@ -16,9 +18,9 @@ body {
 
 .grid {
   display: grid;
-  height: 600px;
-  width: 600px;
-  margin: 30px;
+  height: 50rem;
+  width: 50rem;
+  margin: 3rem;
 }
 
 .box {
@@ -73,7 +75,8 @@ button:hover {
   font-family: "Kaushan Script", cursive;
   font-size: 16px;
   text-align: center;
-  width: 50px;
+  width: 8rem;
+  margin-right: 0.5rem;
 }
 
 .invalid {
